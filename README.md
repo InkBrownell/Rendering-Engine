@@ -6,6 +6,7 @@ to OBJ.
 It must be admitted that the code quality of this project is not up to any
 reasonable standard. I was learning Haskell during this project, and it shows.
 
+<<<<<<< HEAD
 ## Dependencies
 
 ### Haskell Libraries
@@ -21,6 +22,10 @@ reasonable standard. I was learning Haskell during this project, and it shows.
 
 
 ## Compiling
+=======
+# Compiling
+
+>>>>>>> refs/rewritten/master
 
 Basic build:
 `ghc renderer.hs`
@@ -31,7 +36,11 @@ Optimized build:
 Debug build:
 `ghc -rtsopts renderer.hs`
 
+<<<<<<< HEAD
 ## Running
+=======
+# Running
+>>>>>>> refs/rewritten/master
 The program must be executed from the command line, and requires 6 arguments:
 
 1. Input model file (in .obj format)
