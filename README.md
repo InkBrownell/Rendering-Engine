@@ -22,13 +22,13 @@ reasonable standard. I was learning Haskell during this project, and it shows.
 
 ## Compiling
 
-Basic build:
+Basic build (Warning: *Very* slow):
 `ghc renderer.hs`
 
 Optimized build:
 `ghc -O2 -threaded renderer.hs`
 
-Debug build:
+Debug build (also slow):
 `ghc -rtsopts renderer.hs`
 
 ## Running
