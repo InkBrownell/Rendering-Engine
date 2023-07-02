@@ -5,6 +5,19 @@ to convert them to OBJ:
 
 http://www.greentoken.de/onlineconv/
 
+# Compiling
+
+
+Basic build:
+`ghc renderer.hs`
+
+Optimized build:
+`ghc -O2 -threaded renderer.hs`
+
+Debug build:
+`ghc -rtsopts renderer.hs`
+
+# Running
 The program must be executed from the command line, and requires 6 arguments:
 
 1. Input model file (in .obj format)
