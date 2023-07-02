@@ -6,7 +6,7 @@ import           Codec.Picture
 import           Codec.Picture.Types
 import           Control.Monad.Primitive
 import           Control.Monad.ST
-import qualified Debug.Trace as Tr
+
 
 -- By Ink Brownell
 -- A basic renderer to display wireframes of
@@ -156,7 +156,7 @@ main = do
         args <- getArgs
         if length args < 6 
             then error "Not enough args, required args are, in order:\n* Input file (file must be a .obj file)\n* Output file (output will be a .png)\n* Scale factor\n* Camera radial distance\n* Camera azimuth angle (in degrees)\n* Camera inclination angle (in degrees)"
-            else putStrLn "Sufficient arguments"
+            else return ()
 
 
         let inputFile    = args !! 0                           :: String
